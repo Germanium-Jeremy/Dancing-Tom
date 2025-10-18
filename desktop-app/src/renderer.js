@@ -16,28 +16,28 @@ import ShoppingCartDanceUrl from './assets/animations/Shopping Cart Dance.fbx?ur
 import ThrillerDanceUrl from './assets/animations/Thriller Part 2.fbx?url';
 
 // Import skybox textures
-import skyboxFt from '../public/images/wall.jpg';
-import skyboxBk from '../public/images/wall.jpg';
-import skyboxUp from '../public/images/sky3.jpg';
-import skyboxDn from '../public/images/sky4.jpg';
-import skyboxRt from '../public/images/wall.jpg';
-import skyboxLf from '../public/images/wall.jpg';
+import skyboxFt from '/images/wall.jpg';
+import skyboxBk from '/images/wall.jpg';
+import skyboxUp from '/images/sky3.jpg';
+import skyboxDn from '/images/sky4.jpg';
+import skyboxRt from '/images/wall.jpg';
+import skyboxLf from '/images/wall.jpg';
 
 // Import ground texture
-import groundTextureUrl from '../public/images/floor.jpg'; // Update this path to your ground texture image
+import groundTextureUrl from '/images/floor.jpg'; // Update this path to your ground texture image
 
 const idleAnimations = [
-  { id: 'idle-breath', name: "Breathing", icon: '../public/images/image1.png', url: BreathingUrl },
-  { id: 'idle-dwarf', name: "Dwarf", icon: '../public/images/image2.png', url: DwarfIdleUrl },
-  { id: 'idle-sad', name: "Sad", icon: '../public/images/image3.png', url: SadIdleUrl },
-  { id: 'idle-warrior', name: "Warrior", icon: '../public/images/image1.png', url: WarriorIdleUrl }
+  { id: 'idle-breath', name: "Breathing", icon: '/images/HouseDance.jpg', url: BreathingUrl },
+  { id: 'idle-dwarf', name: "Dwarf", icon: '/images/robotDance.png', url: DwarfIdleUrl },
+  { id: 'idle-sad', name: "Sad", icon: '/images/Shoping.png', url: SadIdleUrl },
+  { id: 'idle-warrior', name: "Warrior", icon: '../public/images/ThrillerDance1.png', url: WarriorIdleUrl }
 ];
 
 const dancingAnimations = [
-  { id: 'dancing-house', name: "House", icon: '../public/images/HouseDance.jpg', url: HouseDancingUrl },
-  { id: 'dancing-robot', name: "Robot", icon: '../public/images/robotDance.png', url: RobotDancingUrl },
-  { id: 'dancing-shopping', name: "Shopping", icon: '../public/images/Shoping.png', url: ShoppingCartDanceUrl },
-  { id: 'dancing-thriller', name: "Thriller", icon: '../public/images/ThrillerDance1.png', url: ThrillerDanceUrl }
+  { id: 'dancing-house', name: "House", icon: '/images/HouseDance.jpg', url: HouseDancingUrl },
+  { id: 'dancing-robot', name: "Robot", icon: '/images/robotDance.png', url: RobotDancingUrl },
+  { id: 'dancing-shopping', name: "Shopping", icon: '/images/Shoping.png', url: ShoppingCartDanceUrl },
+  { id: 'dancing-thriller', name: "Thriller", icon: '/images/ThrillerDance1.png', url: ThrillerDanceUrl }
 ];
 
 function initThreeScene() {
